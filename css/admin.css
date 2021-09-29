@@ -1,0 +1,150 @@
+/*
+Admin : priyanshu choudhary
+Theme: Food order website
+Version:1.0;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    padding: 10px;
+    color: rgb(235, 70, 29);
+}
+.wrapper{
+    /* border: 1px solid black; */
+    padding: 1%;
+    width: 100%;
+    margin: 0;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* CSS for tables */
+.tbl-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding:1%;
+}
+.tbl-30{
+    width: 30%;
+}
+
+.btn-primary{
+    background-color: blue;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    background-color:blue;
+}
+
+
+
+.btn-secondary{
+    background-color:#7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+
+.btn-danger{
+    background-color:#eb0e07;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+
+
+
+/* CSS for menu */
+.menu{
+    border-bottom: 1px solid grey
+    /* text-align: center; */
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    margin: 1rem;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+} 
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/* CSS for main content */
+
+.main-content{
+    /* margin: 1% 0; */
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1% ;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for footer */
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+
+}
+
+/* CSS for Login */
+.login{
+    width: 20%;
+    padding: 2%;
+    border: 1px solid grey;
+    margin: 5% auto;
+}
+
+
+
+
